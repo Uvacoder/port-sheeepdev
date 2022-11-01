@@ -19,7 +19,7 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: '/about',
+		href: '/blog/about',
 		icon: <Icon className="mr-3" icon="feather:file-text" />,
 		text: 'About',
 	},
