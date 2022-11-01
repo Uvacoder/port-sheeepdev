@@ -19,6 +19,12 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
+		href: '/about',
+		icon: <Icon className="mr-3" icon="feather:file-text" />,
+		text: 'About',
+	},
+	{
+		type: NavigationItemType.LINK,
 		href: '/blog',
 		icon: <Icon className="mr-3" icon="feather:edit-3" />,
 		text: 'Blog',
@@ -32,24 +38,18 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
-		icon: <Icon className="mr-3" icon="feather:github" />,
-		text: 'GitHub',
+		href: '/blog/uses',
+		icon: <Icon className="mr-3" icon="feather:hard-drive" />,
+		text: 'Uses',
 	},
 ];
 
 export default function HomePage() {
-	const today = new Date();
-	const birthday = new Date('1997-08-09');
-	const age = differenceInYears(today, birthday);
-	const isBirthday =
-		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a ${age} year old software engineer & games developer`;
+	const description = `A software developer from Zagreb, Croatia`;
 
 	return (
 		<Layout.Default>
-			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<div className="min-h-screen flex items-center justify-center py-12">
 				<div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
 					<Animate
@@ -59,9 +59,7 @@ export default function HomePage() {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						I&apos;m Ben, <br className="hidden sm:block" />a{' '}
-						<Pill.Standard className="mt-4">developer</Pill.Standard>
+						<Pill.Standard className="mt-4">sheep</Pill.Standard>
 					</Animate>
 
 					<Animate

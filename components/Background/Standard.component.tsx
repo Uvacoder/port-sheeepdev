@@ -71,7 +71,7 @@ export function Standard() {
 					value: 0,
 				},
 				uColor: {
-					value: new Color(colors.primary[500]),
+					value: new Color(colors.orange[500]),
 				},
 			},
 			transparent: true,

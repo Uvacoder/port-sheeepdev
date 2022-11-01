@@ -1,11 +1,9 @@
 import { useTheme } from 'next-themes';
 
-import { Status } from '~/components';
-import { usePersistantState, useStatus } from '~/lib';
-
 import { NavigationItemType, Theme } from '~/types';
 
 import type { NavigationItem, NavigationItems } from '~/types';
+import { usePersistantState } from './state';
 
 const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
@@ -14,6 +12,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			icon: 'feather:home',
 			text: 'Home',
 			href: '/',
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:file-text',
+			text: 'About',
+			href: '/blog/about',
 		},
 		{
 			type: NavigationItemType.LINK,
@@ -29,55 +33,43 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:clock',
-			text: 'Timeline',
-			href: '/timeline',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:link',
-			text: 'Referrals',
-			href: '/referrals',
-		},
+			href: '/blog/uses',
+			icon: 'feather:hard-drive',
+			text: 'Uses',
+		}
 	],
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/nurodev',
+			icon: 'feather:github',
+			text: 'GitHub',
+			href: 'https://github.com/sheeepdev',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:github',
-			text: 'GitHub',
-			href: 'https://github.com/nurodev',
+			icon: 'feather:message-circle',
+			text: 'Discord',
+			href: 'https://discord.com/users/429303151598895106',
 			external: true,
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:mail',
+			text: 'Email',
+			href: 'mailto:hi@sheepdev.xyz',
+			external: true,
+		}
 	],
 ];
 
 export function useNavigation() {
 	const state = usePersistantState();
 	const { animations: background, sound } = state.get();
-	const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
 
 	const menuItems: NavigationItems = [
 		...staticMenuItems,
-		...(!loading && status.discord_status !== 'offline'
-			? [
-					[
-						{
-							type: NavigationItemType.LINK,
-							icon: <Status.Indicator color={color} pulse />,
-							text: 'Status',
-							href: '/status',
-						} as NavigationItem,
-					],
-			  ]
-			: []),
 	];
 
 	const settingsItems: NavigationItems = [

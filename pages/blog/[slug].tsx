@@ -48,7 +48,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		<>
 			<Layout.Blog
 				seo={{
-					title: `nuro ─ blog ─ ${post.frontmatter.title}`,
+					title: `sheep ─ blog ─ ${post.frontmatter.title}`,
 					description: post.frontmatter.description ?? undefined,
 					openGraph: {
 						title: post.frontmatter.title,
@@ -101,7 +101,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 							)}
 						</div>
 
-						<article className="max-w-prose mx-auto prose prose-primary prose-lg text-gray-500 mx-auto">
+						<article className="max-w-prose mx-auto prose prose-primary prose-lg text-white mx-auto">
 							<MDXRemote {...post.source} components={Blog.X} />
 						</article>
 					</div>
