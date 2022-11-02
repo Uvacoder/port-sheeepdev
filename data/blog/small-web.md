@@ -2,6 +2,7 @@
 title_prefix: big tech
 title: The Small Web and Corporate Bullshit
 date: '2022-07-11'
+description: Web 3.0 silicon valley nft 4.0 monke banana
 ---
 
 As I have stated [on my about page](https://sheepdev.xyz/about), I consider this website to be a part of the small web, a collection of personal websites that try to distance away from big tech.

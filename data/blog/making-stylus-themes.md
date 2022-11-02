@@ -2,6 +2,7 @@
 title_prefix: stylus
 title: Making Stylus Themes
 date: '2021-06-27'
+description: Customizing the web
 ---
 
 First, let me introduce you to stylus. It is an extension for pretty much all browsers that allows you to write your own CSS for a website of your choice. You can install other styles which people made or you can write one yourself.

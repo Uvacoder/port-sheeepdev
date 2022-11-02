@@ -2,6 +2,7 @@
 title_prefix: kde gud
 title: Switching from GNOME to KDE
 date: '2022-04-11'
+description: KDE is good when it comes to customization
 ---
 
 Recently, I switched from GNOME to KDE. Why, you ask?

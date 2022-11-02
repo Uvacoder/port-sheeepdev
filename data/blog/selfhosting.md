@@ -1,8 +1,8 @@
 ---
-title: My Thoughts On Selfhosting
-author: sheep
-date: 2022-02-07 10:29:00 +0100
-tags: [foss, selfhosting]
+title_prefix: selfhosting
+title: My thoughts on selfhosting
+date: '2022-02-07'
+description: Selfhosting is cool
 ---
 
 First, I wanna apologize for not writing any posts, I just took a weekend to relax a bit.

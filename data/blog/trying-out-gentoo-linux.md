@@ -2,6 +2,7 @@
 title_prefix: source-based
 title: Trying out Gentoo Linux
 date: '2022-05-09'
+description: Gentoo takes a decade to compile
 ---
 
 Another distrohop on the ThinkPad!

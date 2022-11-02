@@ -1,8 +1,8 @@
 ---
+title_prefix: gnome
 title: Returning to GNOME after a horrible experience
-author: sheep
-date: 2022-08-05 20:45:00 +0200
-tags: [linux, foss]
+date: '2022-08-05'
+description: A truly horrible experience
 ---
 
 [After a horrible experience with GNOME](https://sheepdev.xyz/posts/switching-from-gnome-to-kde/), and after seeing that theming has gotten possible again after a few months, I have made a decision to return back to GNOME. 

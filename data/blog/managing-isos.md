@@ -2,6 +2,7 @@
 title_prefix: isos
 title: Managing ISO images
 date: '2021-08-08'
+description: Etcher, Rufus and more...
 ---
 
 You know ISOs? Yeah, those images you use to flash a linux distro, or windows to a flash drive.

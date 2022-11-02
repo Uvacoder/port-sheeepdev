@@ -2,6 +2,7 @@
 title_prefix: freshrss
 title: Installing FreshRSS on my Raspberry Pi
 date: '2022-02-04'
+description: Recently, I found out about FreshRSS from Kev
 ---
 
 Recently, I found out about [FreshRSS](https://freshrss.org) from [Kev](https://kevq.uk).

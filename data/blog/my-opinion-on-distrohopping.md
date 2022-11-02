@@ -2,6 +2,7 @@
 title_prefix: distrohopping
 title: My opinion on distrohopping
 date: '2022-06-24'
+description: Distrohopping is based on your needs
 ---
 
 [Distrohopping](https://en.wikipedia.org/wiki/Linux_distribution#Tools_for_choosing_a_distribution=) is a process of constantly switching between distributions.

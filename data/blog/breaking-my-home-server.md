@@ -2,6 +2,7 @@
 title_prefix: servers
 title: Breaking my Home server
 date: '2022-03-09'
+description: The story on how I broke my home server
 ---
 
 Hello everyone! I'm back.

@@ -1,10 +1,11 @@
 ---
+banner: https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
 title_prefix: home server
 title: Building a Home server
 date: '2022-01-09'
+description: Home servers are cool!
 ---
 
-![Home Server](https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
 First, I wan't to apologize for my inactivity in writing blog posts, I have been busy with stuff.
 
 Anyways, what I have got around to doing is building my own home server!

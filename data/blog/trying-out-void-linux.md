@@ -2,7 +2,9 @@
 title_prefix: musl
 title: Trying out Void Linux
 date: '2022-01-15'
+description: Void is cool
 ---
+
 Since I really like to distro hop on my ThinkPad, I thought why not give Void Linux a try?
 
 First, I downloaded the ISO image from [their website](https://voidlinux.org). Everything went smoothly, the only thing I noticed is that the image seems to be kind of old (from september 2021). Anyways, I opened up etcher and picked the ISO and flashed it to my flash drive, which I plugged in into the laptop. I booted from the USB and a grub menu appeared, I am entering the void :) I chose the first option and booted up to a default XFCE enviroment.

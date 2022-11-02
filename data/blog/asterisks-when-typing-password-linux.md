@@ -2,6 +2,7 @@
 title_prefix: Linux beginnings
 title: Showing Asterisks When Typing Password In Linux
 date: '2022-01-30'
+description: Some linux beginners get confused when typing their password, because it actually does not echo to the terminal.
 ---
 
 Some linux beginners get confused when typing their password, because it actually does not echo to the terminal.

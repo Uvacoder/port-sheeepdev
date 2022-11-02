@@ -2,6 +2,7 @@
 title_prefix: i use arch btw
 title: The best Arch-based distros
 date: '2022-08-09'
+description: But, there are some distros that are arch based and very easy for newbies that are even better then debian-based distros such as ubuntu.
 ---
 
 I like to use pure arch, it is perfect for my usage case. I wouldn't suggest pure arch for newbies that have just come to linux, most of them go the debian-based route. 

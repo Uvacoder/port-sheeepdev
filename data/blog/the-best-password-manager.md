@@ -2,6 +2,7 @@
 title_prefix: passwords
 title: The Best Password Manager
 date: '2022-10-14'
+description: Quitting Bitwarden and choosing KeePass
 ---
 
 Some time ago, when I quit BitWarden, I was stuck in a loop finding the best password manager for my needs.

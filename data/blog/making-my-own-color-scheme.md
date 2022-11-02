@@ -2,6 +2,7 @@
 title_prefix: colors
 title: Making my own color scheme
 date: '2022-12-02'
+description: The making of a color scheme
 ---
 
 Did you ever think of making your own color scheme? Well, I did. Recently I switched away from the [Nord](https://nordtheme.com) color scheme because I just got bored of it and I wanted to make my own color scheme.
