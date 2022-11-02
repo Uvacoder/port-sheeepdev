@@ -1,7 +1,7 @@
 ---
 banner: https://images.pexels.com/photos/765139/pexels-photo-765139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 title: The Best Linux Podcasts
-date: '2022-12-15'
+date: '2021-12-15'
 description: Recently, I started listening to podcasts. I searched around for some linux and tech podcasts and these are my favorites
 ---
 
