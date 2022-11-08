@@ -1,7 +1,6 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
-	"version": 2,
-	"alias": "nuro.dev",
+	"version": 2
 	"cleanUrls": true,
 	"public": true,
 	"regions": ["lhr1"],
